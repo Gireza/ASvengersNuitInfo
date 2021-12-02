@@ -2,6 +2,6 @@
 
 Pour la nuit de l'info tmtc
 
-On essai de comprendre le github la les frérots 
+Liens vers le site en ligne : https://sauveteurdudunkerquois.fr/57tro-0250b/
 
 Moi c'est Tes-Tas qui modifie là 
