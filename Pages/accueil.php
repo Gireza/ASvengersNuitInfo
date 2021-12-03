@@ -20,20 +20,19 @@
     <input type="text" placeholder="Ex␣:␣georges" name="motif"
     id="motif" required/>
   </div>
-  <div>
-    <label for="requin" class="light">Rechercher par siècle : </label>
-    <select name="date" id="requin">
-        <option value="21">21° siècle</option>
-        <option value="20">20° siècle</option>
-        <option value="19">19° siècle</option>
-        <option value="18">18° siècle</option>
-        <option value="17">17° siècle</option>
-        <option value="16">16° siècle</option>
-    </select>
-  </div>
-  
   <button>Chercher</button>
 </form>
+ <div>
+     <label>Trier par :
+  </label>
+<form action="printUser.php" method="get">
+  <button>Alphabétique (croissant)</button>
+</form>
+
+<form action="printdescUser.php" method="get">
+  <button>Alphabétique (décroissant)</button>
+</form>
+  </div>
 
 <?php if(isset($_SESSION['id'])){
   echo "<form action=\"addUser.php\" method=\"get\">
