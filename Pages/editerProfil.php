@@ -80,6 +80,8 @@ if (isset($_SESSION['id'])){
 					'avatar'=>$_SESSION['id'].".".$extensionUpload,
 					'id' => $_SESSION['id']
 					));
+					$reqUser->execute(array($_SESSION['id']));
+					$userInfos = $reqUser -> fetch();
 					$_SESSION['avatar'] = $userInfos['avatar'];
 					header('Location: profil.php?pseudo='.$_SESSION['pseudo']);
 				} else {
