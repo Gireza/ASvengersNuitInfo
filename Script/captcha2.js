@@ -2,8 +2,8 @@
 let captcha_text = "";
 const btnVerif = document.getElementById("verifyButton");
 const btnRefresh = document.getElementById("refreshButton");
-const devi = ['la France','l Allemagne','l Australie','l Autriche','la Belgique','la Bulgarie'];
-const rep = ['Paris','Berlin','Canberra','Vienne','Bruxelles','Sofia'];
+const devi = ['la France','l Allemagne','l Australie','l Autriche','la Belgique','la Bulgarie','tapez hector'];
+const rep = ['Paris','Berlin','Canberra','Vienne','Bruxelles','Sofia','hector'];
 const tCtx = document.getElementById('textCanvas').getContext('2d'); //ecrit le texte en image
 const imageElem = document.getElementById('image');
 const font = '17px "Cutive Mono"'; //font du captcha
