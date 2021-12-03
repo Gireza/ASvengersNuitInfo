@@ -1,0 +1,56 @@
+body{
+	margin:0px;
+	font-family: "Calibri";
+}
+.inscription{
+	height: 100%;
+	border-radius: 30px;
+	display: flex;
+}
+
+.imageFond{
+	flex : 1;
+	background-image:url("../images/voilier.jpg");
+	background-size: cover;=
+}
+.tableauInscription{
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	background-color: #eee;
+}
+table{
+	align-self: center;
+	background-color: white;
+	padding: 15px;
+	box-shadow: 0px 2px 5px #bbb;
+
+}
+.inputFocusOut{
+	padding: 9px;
+	margin: 5px;
+	border: 1px solid black;
+	border-radius: 3px;
+	background-color: #eee;
+}
+.inputFocusOn{
+	padding: 9px;
+	margin: 5px;
+	border: 1px solid black;
+	border-radius: 3px;
+	background-color: white;
+}
+.boutonInscription{
+	color: white;
+	background-color: #045FB4;
+	padding: 9px;
+	margin: 5px;
+}
+#avatar{
+	padding: 10px;
+}
+caption{
+	padding: 10px;
+	font-size: 1.2em;
+}
