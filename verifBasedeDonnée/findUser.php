@@ -28,7 +28,7 @@ catch (Exception $e)
 //j'itère sur les tuples résultats
 foreach ($tuples as $t) {
     //j'affiche l'attribut login du tuple
-    echo '<p>'.$t['login'] .'  '.$t['nom'].'  '. $t['prenom'].'</p>' ;
+    echo '<p>'.$t['nom'].'  '. $t['prenom'].'  '. $t['dateN'] .' '. $t['dateD'] .' '. $t['descriptif'] .'</p>' ;
 
 }
 ?>
