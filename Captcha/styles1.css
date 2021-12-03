@@ -1,0 +1,76 @@
+:root{
+    --main-bg-color: #777f81;
+    --main-text-color: #444;
+    --main-box-shadow: 1px 1px 1px rgba(255,255,255,.8);
+}
+html{
+    display: table;
+    margin: auto;
+}
+html, body{
+    height: 100%;
+}
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: var(--main-bg-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.capt {
+    display: none;
+    position: fixed;
+    box-shadow: var(--main-box-shadow);
+    border: 1px black;
+}
+.captcha_textfield {
+    border-radius: 10px;
+    background: var(--main-bg-color);
+    margin: 10px 10px 10px 0;
+    padding: 10px;
+    color: var(--main-text-color);
+    font-size: 1rem;
+    box-shadow: var(--main-box-shadow);
+    transition: .4s ease-in-out;
+}
+.verif_button {
+    background: var(--main-bg-color);
+    width: auto;
+    padding: 10px;
+    border-radius: 45px;
+    color: var(--main-text-color);
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.capt-header {
+    padding: 2px 16px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #474d4b;
+    color: white;
+    font-size: small;
+    border-radius: 20px 20px 0 0;
+}
+.capt-body {
+    padding: 5px 15px 5px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.canvas {
+    border: 1px var(--main-text-color) solid;
+}
+#textCanvas {
+    display: none;
+}
+.captcha_image {
+
+    padding-top: 10px;
+    margin: 20px;
+}
+.hidden_label {
+    display: none;
+}
