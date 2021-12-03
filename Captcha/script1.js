@@ -21,6 +21,7 @@ function Captcha() {
         var g = txt[Math.floor(Math.random() * txt.length)];
     }
     captcha_text = a + ' ' + b + ' ' + ' ' + c + ' ' + d + ' ' + e + ' ' + f + ' ' + g;
+    imageElem.setAttribute('alt', captcha_text);
 
     document.fonts.load(font).then(function (){
         tCtx.font = font;
