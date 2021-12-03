@@ -20,7 +20,7 @@ try
     //je crée une connection à la base
    $db = new PDO('mysql:host=webinfo.iutmontp.univ-montp2.fr;dbname=martineze;charset=utf8', 'martineze', '7092021');
     //je prépare une requete
-    $req = $db->prepare('INSERT INTO users (login, nom, prenom) VALUES (:login, :nom, :prenom)');
+    $req = $db->prepare('INSERT INTO Proposition(nom, prenom,) VALUES (:login, :nom, :prenom)');
     //je l'execute
     $req->execute(['login' => $login, 'nom' => $nom, 'prenom' => $prenom]);
     //la variable tuples récupère toutes les lignes
