@@ -34,7 +34,7 @@ if (isset($_POST['formInscription'])) {
 									'motDePasse' => $motDePasse));
 								var_dump($insertMembre);
 								$erreur = "Votre compte a bien été créé";
-								header('Location: connexion.php');
+								header('Location: captcha2.php');
 							}
 						} else {
 							$erreur = "Votre adresse mail a déjà été utilisée.";
